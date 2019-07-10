@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  devtools:
+    restart:
+      enabled: true
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+logging:
+  level:
+    com.pan: debug
